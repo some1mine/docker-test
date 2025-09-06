@@ -11,7 +11,7 @@ def get_db_connection():
     retries = 5
     while retries > 0:
         try:
-            print("데이터베이스 연결을 시도합니다...")
+            print("데이터베이스 연결을 시도합니다***")
             # os.getenv() 함수를 사용하여 환경 변수 값을 읽어옵니다.
             conn = mysql.connector.connect(
                 host=os.getenv("DB_HOST"),
